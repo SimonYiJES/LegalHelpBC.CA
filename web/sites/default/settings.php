@@ -696,12 +696,12 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  *
  * For example:
  * @code
- * $settings['trusted_host_patterns'] = [
- *   '^example\.com$',
- *   '^.+\.example\.com$',
- *   '^example\.org$',
- *   '^.+\.example\.org$',
- * ];
+ $settings['trusted_host_patterns'] = [
+   '^legalhelpbc\.ca$',
+   '^.+\.legalhelpbc\.ca$',
+   '^legalhelpbc\.ca$',
+   '^.+\.legalhelpbc\.ca$',
+ ];
  * @endcode
  * will allow the site to run off of all variants of example.com and
  * example.org, with all subdomains included.
@@ -756,6 +756,7 @@ $settings['entity_update_backup'] = TRUE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $settings['config_sync_directory'] = '../config/sync';
+
 $databases['default']['default'] = array (
   'database' => 'drupal',
   'username' => 'drupal',
@@ -766,3 +767,13 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
+//$databases['default']['default'] = array (
+//  'database' => 'legalhelpco',
+//  'username' => 'askjes_legalh',
+//  'password' => 'LeGal!HelpCo',
+//  'prefix' => '',
+//  'host' => 'localhost',
+//  'port' => '3306',
+//  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+//  'driver' => 'mysql',
+//);

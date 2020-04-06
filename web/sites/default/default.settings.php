@@ -266,7 +266,7 @@ $databases = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'Z4sUOLbc0aYAfh5lG2giHiMo_dsqCkY4yFZWE1oKUL6yqgT947ofoQBUJfRIxGjW0_5dcOqhPw';
 
 /**
  * Deployment identifier.
@@ -755,3 +755,25 @@ $settings['entity_update_backup'] = TRUE;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
+$settings['config_sync_directory'] = '../config/sync';
+
+//$databases['default']['default'] = array (
+//  'database' => 'drupal',
+//  'username' => 'drupal',
+//  'password' => 'drupal',
+//  'prefix' => '',
+//  'host' => 'mariadb',
+//  'port' => '3306',
+//  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+//  'driver' => 'mysql',
+//);
+$databases['default']['default'] = array (
+  'database' => 'askjes_legalhelp',
+  'username' => 'legalhelpcovid',
+  'password' => 'CoV!d2019D6',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
