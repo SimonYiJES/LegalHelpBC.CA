@@ -45,3 +45,28 @@ header.header-1{
 input#edit-keys--2{
   width: 60%;
 }
+#block-covid19 h2{
+  color: #ffffff;
+  line-height: 2em;
+}
+#block-mainnav-3 ul.gva_menu li.menu-item{
+  display: block;
+}
+#block-mainnav-3 ul.gva_menu li.menu-item a{
+  padding: 5px !important
+}
+#footer {
+  background-color: transparent;
+}
+
+#footer .footer-first{
+  background-color: #2F2F2F;
+}
+.highlighted {
+  background-color: green;
+}
+.ui-state-active .ui-icon, .ui-button:active .ui-icon, .ui-accordion-header-icon{
+  float: right !important;
+  zoom: 2;
+  margin-top: 1px;
+}

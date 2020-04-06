@@ -2664,6 +2664,56 @@
         ]
     },
     {
+        "name": "drupal/backup_db",
+        "version": "1.3.0",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/backup_db.git",
+            "reference": "8.x-1.3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/backup_db-8.x-1.3.zip",
+            "reference": "8.x-1.3",
+            "shasum": "c357e6935b8d7fd23212806d3b1fc234f89bd550"
+        },
+        "require": {
+            "drupal/core": "~8.0",
+            "ifsnop/mysqldump-php": "dev-master"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.3",
+                "datestamp": "1505714344",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL"
+        ],
+        "authors": [
+            {
+                "name": "swim",
+                "homepage": "https://www.drupal.org/user/1968266"
+            }
+        ],
+        "description": "Provides database backup solutions via Drupal.",
+        "homepage": "http://drupal.org/project/backup_db",
+        "support": {
+            "source": "https://git.drupalcode.org/project/backup_db"
+        }
+    },
+    {
         "name": "drupal/coder",
         "version": "8.3.8",
         "version_normalized": "8.3.8.0",
@@ -3902,6 +3952,63 @@
         ]
     },
     {
+        "name": "ifsnop/mysqldump-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ifsnop/mysqldump-php.git",
+            "reference": "fc9c119fe5d70af9a685cad6a8ac612fd7589e25"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ifsnop/mysqldump-php/zipball/fc9c119fe5d70af9a685cad6a8ac612fd7589e25",
+            "reference": "fc9c119fe5d70af9a685cad6a8ac612fd7589e25",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.8.36",
+            "squizlabs/php_codesniffer": "1.*"
+        },
+        "time": "2020-04-03T14:40:40+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Ifsnop\\": "src/Ifsnop/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Diego Torres",
+                "homepage": "https://github.com/ifsnop",
+                "role": "Developer"
+            }
+        ],
+        "description": "PHP version of mysqldump cli that comes with MySQL",
+        "homepage": "https://github.com/ifsnop/mysqldump-php",
+        "keywords": [
+            "PHP7",
+            "database",
+            "hhvm",
+            "mariadb",
+            "mysql",
+            "mysql-backup",
+            "mysqldump",
+            "pdo",
+            "php",
+            "php5",
+            "sql"
+        ]
+    },
+    {
         "name": "instaclick/php-webdriver",
         "version": "1.4.7",
         "version_normalized": "1.4.7.0",
@@ -4004,7 +4111,8 @@
                 "name": "Jakub Onderka",
                 "email": "jakub.onderka@gmail.com"
             }
-        ]
+        ],
+        "abandoned": "php-parallel-lint/php-console-color"
     },
     {
         "name": "jakub-onderka/php-console-highlighter",
@@ -4052,7 +4160,8 @@
                 "homepage": "http://www.acci.cz/"
             }
         ],
-        "description": "Highlight PHP code in terminal"
+        "description": "Highlight PHP code in terminal",
+        "abandoned": "php-parallel-lint/php-console-highlighter"
     },
     {
         "name": "jcalderonzumba/gastonjs",
