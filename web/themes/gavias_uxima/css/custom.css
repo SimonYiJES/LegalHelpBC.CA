@@ -1,0 +1,47 @@
+header.header-1{
+  position: relative !important;
+}
+#header {
+  background-color: #5C9941;
+}
+
+#header .topbar{
+  background-color: #5C9941;
+  border-bottom: none;
+}
+#header .topbar .container{
+
+  border-bottom: solid 1px #cccccc;
+}
+#content .help.gav-help-region{
+  display: none !important;
+}
+.header-main .header-main-inner .header-inner{
+
+  float: right;
+}
+.header-main .header-main-inner .header-inner ul {
+  list-style-type: disc;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
+  list-style-position: inside;
+  width:500px;
+}
+
+.header-main .header-main-inner .header-inner ul li{
+  float:left;
+  width:240px;
+  line-height: 1em;
+
+}
+.header-main .header-main-inner .header-inner ul li:nth-child(even){
+  margin-right:0;
+}
+.header-main .header-main-inner .header-inner ul li a{
+  padding-top: 1.5em !important;
+  padding-bottom: 1.5em !important;
+}
+input#edit-keys--2{
+  width: 60%;
+}

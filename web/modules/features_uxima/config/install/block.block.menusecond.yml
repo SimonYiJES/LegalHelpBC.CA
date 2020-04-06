@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-second
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - system
+  theme:
+    - gavias_uxima
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: menusecond
+theme: gavias_uxima
+region: quick_side
+weight: -15
+provider: null
+plugin: 'system_menu_block:menu-second'
+settings:
+  id: 'system_menu_block:menu-second'
+  label: 'Quick Menu '
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

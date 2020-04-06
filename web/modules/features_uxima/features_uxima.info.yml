@@ -1,0 +1,38 @@
+name: 'Features Uxima'
+description: 'Features Uxima - Import content type, field, view ... for Uxima theme'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - block_content
+  - block_visibility_groups
+  - comment
+  - contact
+  - ctools
+  - datetime
+  - field
+  - file
+  - filter
+  - gavias_content_builder
+  - gavias_view
+  - gaviasthemer
+  - image
+  - imce
+  - mailchimp_signup
+  - menu_ui
+  - node
+  - options
+  - path
+  - pathauto
+  - rdf
+  - system
+  - taxonomy
+  - text
+  - user
+  - views
+  - views_infinite_scroll
+  - webform
+  - config_update
+  - features
+  - admin_toolbar
+version: 8.x-1.0
