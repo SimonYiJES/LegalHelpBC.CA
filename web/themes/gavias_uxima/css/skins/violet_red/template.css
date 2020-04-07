@@ -888,7 +888,7 @@ header.header-3 .main-menu {
     padding-bottom: 0;
     margin-bottom: 0; }
     #footer .block .block-title span {
-      color: #fff !important; }
+      color: #fff; }
       #footer .block .block-title span:after, #footer .block .block-title span:before {
         display: none; }
   #footer .copyright {

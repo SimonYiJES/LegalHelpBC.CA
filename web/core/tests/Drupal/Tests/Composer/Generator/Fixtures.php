@@ -33,7 +33,7 @@ class Fixtures {
       'license' => 'GPL-2.0-or-later',
       'require' =>
       [
-        'php' => '>=7.0.8',
+        'php' => '>=7.0.4',
         'symfony/yaml' => '~3.4.5',
       ],
       'require-dev' =>

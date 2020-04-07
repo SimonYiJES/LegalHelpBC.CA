@@ -177,3 +177,9 @@ input#edit-keys--2{
   text-transform: capitalize;
   font-size: 1.3em;
 }
+#footer #block-fundedby h2.block-title span{
+  color: #3b3d40 !important;
+}
+#footer .footer-second{
+  background-color: #f9f9f9;
+}
