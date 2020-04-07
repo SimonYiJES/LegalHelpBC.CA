@@ -2,11 +2,11 @@ header.header-1{
   position: relative !important;
 }
 #header {
-  background-color: #5C9941;
+  background-color: #00839b;
 }
 
 #header .topbar{
-  background-color: #5C9941;
+  background-color: #00839b;
   border-bottom: none;
 }
 #header .topbar .container{
@@ -58,15 +58,122 @@ input#edit-keys--2{
 #footer {
   background-color: transparent;
 }
+.footer-column{
+  font-size: 16px;
+}
+.footer-column{
+  padding: 40px;
+}
 
 #footer .footer-first{
-  background-color: #2F2F2F;
+  background-color: #6bab43;
 }
 .highlighted {
-  background-color: green;
+  background-color: #00839b;
+}
+.block .block-title:after{
+  background: #00839b;
 }
 .ui-state-active .ui-icon, .ui-button:active .ui-icon, .ui-accordion-header-icon{
   float: right !important;
   zoom: 2;
   margin-top: 1px;
+}
+#header .topbar .container{
+  height: 160px;
+}
+.navigation .gva_menu > li > a{
+  text-transform: capitalize;
+}
+#page-main-content {
+  padding-top: 80px;
+}
+.ui-accordion .ui-accordion-header{
+  border: none;
+  background: none;
+  padding-left: 0 !important;
+}
+.ui-accordion .ui-accordion-content{
+  border-bottom: solid 1px #777777;
+  padding-left: 0 !important;
+
+}
+.ui-accordion-header-collapsed{
+  border-bottom: solid 1px #777777 !important;
+
+}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited{
+  color: #00839b;
+}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, a.ui-button, a:link.ui-button, a:visited.ui-button, .ui-button{
+  color: #00839b;
+}
+.ui-widget-content {
+  border: none;
+  background: transparent;
+
+}
+.ui-state-active{
+  color: #00839b !important;
+
+}
+.title.page-title{
+  padding-bottom: 20px;
+}
+#page-main-content .views-field-field-source, #page-main-content .views-field-field-updated{
+  display: block !important;
+  font-size: 0.9em;
+  font-style: italic;
+
+}
+
+.views-field-term-node-tid{
+  margin-right: 0.5em;
+}
+.views-field-field-updated{
+  margin-bottom: 20px;
+}
+#block-views-block-recent-updates-block-1 .views-field-title a{
+  font-size: 16px;
+  line-height: 22px;
+  color: #000;
+  word-wrap: break-word;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.views-field-field-source, .views-field-field-updated {
+  display: inline-block ;
+  color: #888 !important;
+}
+.views-field-field-source a{
+  color: #888 !important;
+
+}
+.views-field-term-node-tid a{
+  color: #888 !important;
+}
+#block-askjes{
+  background-color: #6bab43;
+  padding: 35px;
+}
+#block-askjes h3{
+  color: #ffffff;
+  padding-bottom: 5px;
+  text-align: center;
+}
+#block-askjes p{
+  color: #ffffff;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.3em;
+}
+#block-askjes a{
+  background-color: #ffffff;
+  color: #000000;
+  font-style: normal;
+  text-align: center;
+  width: 100%;
+  border-radius: 30px;
+  text-transform: capitalize;
+  font-size: 1.3em;
 }
