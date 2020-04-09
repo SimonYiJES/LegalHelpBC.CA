@@ -85,7 +85,7 @@ input#edit-keys--2{
   height: 160px;
 }
 .navigation .gva_menu > li > a{
-  text-transform: capitalize;
+  text-transform: inherit;
 }
 #page-main-content {
   padding-top: 80px;
@@ -121,6 +121,9 @@ input#edit-keys--2{
 }
 .title.page-title{
   padding-bottom: 20px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  text-transform: inherit;
 }
 .ui-accordion #page-main-content .views-field-field-source, .ui-accordion #page-main-content #page-main-content .views-field-field-updated{
   display: block !important;
@@ -170,7 +173,7 @@ input#edit-keys--2{
   display: inline-block;
 }
 .views-field-field-source a{
-  color: #888 !important;
+  color: #888;
 
 }
 .views-field-term-node-tid a{
@@ -210,11 +213,16 @@ input#edit-keys--2{
 #footer .footer-second{
   background-color: #f9f9f9;
 }
+.footer-third{
+  padding-right: 0;
+}
 .footer-third ul li{
   display: inline-block;
   position: relative;
   width: 120px;
   clear: none;
+  margin: 5px 5px;
+  vertical-align: middle;
 }
 .views-field-field-link .field-content, .views-field-field-updated .field-content, .views-field-field-category .field-content {
   display: inline-block;
@@ -266,7 +274,7 @@ a{
   border-bottom: 1px solid #3b3d40;
 }
 .page-title{
-  color: #6bab43 !important;
+  /*color: #6bab43 !important;*/
 }
 
 .block-gavias-uxima-content a{
@@ -310,4 +318,141 @@ a{
 .frontpage .main-desc{
   font-size: 16px;
   margin-bottom: 30px;
+}
+.footer-third{
+  padding-left: 0;
+}
+.ui-accordion-content ul li{
+  font-size: 16px;
+}
+.ui-accordion-content ol li{
+  font-size: 16px;
+}
+
+.views-label-field-source .ui-accordion-content a{
+  color: #00839b;
+}
+
+
+input.button{
+  background-color: #e16a2d !important;
+}
+.btn{
+  background-color: #e16a2d;
+}
+#block-askjes .btn.white{
+  background-color: #ffffff !important;
+
+}
+@media (min-width: 1200px){
+  .footer-second.col-xl-3 {
+    max-width: 20%;
+  }
+  .footer-third.col-xl-6{
+    width: 55%;
+    max-width: 55%;
+  }
+}
+@media (max-width: 991.98px){
+  .topbar .topbar-content-inner{
+    padding-right: 0;
+  }
+  .site-branding-logo{
+    max-width: 66%;
+    padding-top: 45px !important;
+  }
+  #block-jesbranding img{
+    width: 30%;
+  }
+  .header-main .header-main-inner .header-inner ul {
+    list-style-type: none;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1;
+    width: 100%;
+
+  }
+  .header-main .header-main-inner .header-inner ul li{
+    margin-bottom: 10px;
+  }
+  .header-main .header-main-inner .header-inner ul li a{
+    color: #6bab43 !important;
+  }
+
+  .gva-offcanvas-mobile .after-offcanvas {
+    display: none !important;
+  }
+  .frontpage .main-category ul li .content{
+    width: 70%;
+  }
+  .frontpage .main-category ul li .content .desc{
+    margin-left: -80px;
+  }
+  .frontpage .main-category ul li .content .title {
+    display: flex;
+    height: 6em;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+
+  }
+  .frontpage .main-category ul li .content .title h3{
+    text-align: center;
+    margin: auto 0; /* Important */
+  }
+  .frontpage .main-category ul li .btn{
+    margin: auto;
+    display: block;
+    float: none;
+    width: 220px;
+  }
+  .main-category ul li{
+    margin-bottom: 50px;
+  }
+  .main-category ul li.odd{
+    margin-bottom: 50px;
+    background-color: #f9f9f9;
+  }
+  .search-block-form{
+    display: none;
+  }
+  #block-mainnav-3-menu {
+    text-align: center;
+  }
+  h2#block-mainnav-3-menu{
+    margin-bottom: 0;
+  }
+  #block-mainnav-3-menu:after{
+    display: none;
+  }
+  #block-mainnav-3 ul {
+    padding-left: 0;
+  }
+  #block-mainnav-3 ul li{
+
+    text-align: center;
+
+  }
+  #block-informationfrom .footer-third ul li {
+    width: auto;
+    padding:5px;
+  }
+  #block-informationfrom h2{
+    margin-left: 40px
+  }
+  #block-informationfrom h2:after{
+    margin-left: 40px
+  }
+  .site-branding-logo img{
+    width: 200px !important;
+  }
+  #block-covid19 h2{
+    line-height: 1.5em;
+  }
+  #menu-bar {
+    top: 8%;
+  }
+  #header .topbar .container{
+    /*border-bottom: none;*/
+  }
 }
