@@ -39,8 +39,9 @@ header.header-1{
   margin-right:0;
 }
 .header-main .header-main-inner .header-inner ul li a{
-  padding-top: 1.5em !important;
-  padding-bottom: 1.5em !important;
+  padding-top: 1.2em !important;
+  padding-bottom: 1.2em !important;
+  font-size: 16px !important;
 }
 input#edit-keys--2{
   width: 60%;
@@ -53,7 +54,8 @@ input#edit-keys--2{
   display: block;
 }
 #block-mainnav-3 ul.gva_menu li.menu-item a{
-  padding: 5px !important
+  padding: 3px !important;
+
 }
 #footer {
   background-color: transparent;
@@ -120,30 +122,52 @@ input#edit-keys--2{
 .title.page-title{
   padding-bottom: 20px;
 }
-#page-main-content .views-field-field-source, #page-main-content .views-field-field-updated{
+.ui-accordion #page-main-content .views-field-field-source, .ui-accordion #page-main-content #page-main-content .views-field-field-updated{
   display: block !important;
   font-size: 0.9em;
   font-style: italic;
+  color: #888 !important;
 
 }
 
 .views-field-term-node-tid{
   margin-right: 0.5em;
 }
-.views-field-field-updated{
+.block-views-blockrecent-updates-block-1 .views-field-field-updated{
+  margin-bottom: 20px;
+}
+.ui-accordion .views-field-field-updated{
   margin-bottom: 20px;
 }
 #block-views-block-recent-updates-block-1 .views-field-title a{
   font-size: 16px;
   line-height: 22px;
-  color: #000;
+  color: #6bab43;
   word-wrap: break-word;
   font-weight: 700;
+  text-transform: capitalize;
+}
+
+#block-views-block-recent-updates-block-1 .item{
+  border-bottom: 1px solid #3b3d40;
+  margin-bottom:  20px;
+}
+.block-views-blockrecent-updates-block-1.block .block-title:after{
+  background-color: #6bab43 !important;
+  height: 5px;
+}
+.block-views-blockrecent-updates-block-1.block .block-title{
   text-transform: capitalize;
 }
 .views-field-field-source, .views-field-field-updated {
   display: inline-block ;
   color: #888 !important;
+}
+.views-field-field-source{
+  display: block;
+}
+.views-field-field-source .field-content{
+  display: inline-block;
 }
 .views-field-field-source a{
   color: #888 !important;
@@ -180,6 +204,110 @@ input#edit-keys--2{
 #footer #block-fundedby h2.block-title span{
   color: #3b3d40 !important;
 }
+#footer #block-informationfrom h2.block-title span{
+  color: #3b3d40 !important;
+}
 #footer .footer-second{
   background-color: #f9f9f9;
+}
+.footer-third ul li{
+  display: inline-block;
+  position: relative;
+  width: 120px;
+  clear: none;
+}
+.views-field-field-link .field-content, .views-field-field-updated .field-content, .views-field-field-category .field-content {
+  display: inline-block;
+}
+#block-views-block-updates-block-1   .views-field-field-category{
+  margin-bottom: 20px;
+}
+.feed-icon{
+  display: none;
+}
+#page-main-content h2{
+  color: #6bab43 !important;
+}
+#page-main-content h2 a{
+  color: #6bab43 !important;
+}
+#page-main-content h2{
+  color: #6bab43 !important;
+}
+#page-main-content #block-gavias-uxima-content .field--label-inline .field__label, #page-main-content #block-gavias-uxima-content .field--label-inline .field__items, #page-main-content #block-gavias-uxima-content .field--label-inline .field__item{
+  display: inline-block;
+}
+#page-main-content #block-gavias-uxima-content .field--type-datetime{
+  margin-bottom: 20px;
+}
+.ui-accordion a{
+  color: #00839b;
+}
+p {
+  font-size: 1.3em;
+  font-family: Helvetica !important;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+  font-family: Helvetica;
+  font-family: Helvetica !important;
+}
+a{
+  font-family: Helvetica;
+  font-family: Helvetica !important;
+}
+.ui-accordion-content{
+  height: auto !important;
+}
+#page-main-content a{
+  color: #00839b;
+
+}
+#page-main-content .item-list .view-list-item{
+  border-bottom: 1px solid #3b3d40;
+}
+.page-title{
+  color: #6bab43 !important;
+}
+
+.block-gavias-uxima-content a{
+  color: #00839b;
+}
+.frontpage .main-category ul{
+  padding-left: 0;
+}
+.frontpage .main-category ul li {
+  list-style: none;
+  display: inline-block;
+
+}
+.frontpage .main-category ul li div{
+  display: inline-block;
+}
+.frontpage .main-category ul li .icon{
+  margin-right: 20px;
+  float: left;
+
+}
+.frontpage .main-category ul li .content{
+  width: 80%;
+  float: left;
+}
+
+.frontpage .main-category ul li .btn{
+  border-radius: 25px;
+  float: right;
+  clear: both;
+}
+.frontpage .main-category ul li .btn a{
+  color: #ffffff !important;
+}
+.frontpage .header-title h2.title{
+  display: none;
+}
+.frontpage .source{
+  font-style: italic;
+}
+.frontpage .main-desc{
+  font-size: 16px;
+  margin-bottom: 30px;
 }

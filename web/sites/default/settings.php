@@ -768,8 +768,8 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 //$databases['default']['default'] = array (
-//  'database' => 'legalhelpco',
-//  'username' => 'askjes_legalh',
+//  'database' => 'askjes_legalh',
+//  'username' => 'legalhelpco',
 //  'password' => 'LeGal!HelpCo',
 //  'prefix' => '',
 //  'host' => 'localhost',
