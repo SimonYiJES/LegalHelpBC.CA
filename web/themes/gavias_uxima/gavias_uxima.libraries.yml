@@ -3,7 +3,7 @@ global-styling:
   header: true
   css:
     theme:
-      //fonts.googleapis.com/css?family=Raleway:300,400,600,700,800,900: { type: external }
+      //fonts.googleapis.com/css?family=Helvetica:300,400,600,700,800,900: { type: external }
       //fonts.googleapis.com/css?family=Open+Sans:400,700: { type: external }
       //fonts.googleapis.com/css?family=Playfair+Display:400,400i: { type: external }
       css/sliderlayer.css: {}

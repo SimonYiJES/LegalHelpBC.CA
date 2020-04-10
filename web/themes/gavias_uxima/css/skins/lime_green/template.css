@@ -13,7 +13,7 @@ input:hover, input:focus, input:active, select:hover, select:focus, select:activ
   outline: none !important; }
 
 label {
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-weight: 700; }
 
 img {
@@ -176,7 +176,7 @@ a.disable {
       -moz-border-radius: 4px;
       -ms-border-radius: 4px;
       -o-border-radius: 4px;
-      font-family: "Raleway", sans-serif;
+      font-family: "Helvetica", sans-serif;
       text-transform: uppercase;
       background: #fff; }
       .pager ul.pager__items > li a:last-child {
@@ -459,7 +459,7 @@ header .header-info .content-inner {
     font-size: 14px;
     font-weight: 700;
     color: #666666;
-    font-family: "Raleway", sans-serif;
+    font-family: "Helvetica", sans-serif;
     line-height: 20px;
     text-transform: uppercase; }
   header .header-info .content-inner .desc {
@@ -1202,7 +1202,7 @@ body.maintenance-page {
     font-weight: 700;
     font-size: 18px;
     text-transform: capitalize;
-    font-family: "Raleway", sans-serif;
+    font-family: "Helvetica", sans-serif;
     display: block; }
     .post-block .post-title a {
       color: #000;
@@ -1252,7 +1252,7 @@ body.maintenance-page {
       -moz-transition: all 0.35s;
       -ms-transition: all 0.35s;
       line-height: 1.5;
-      font-family: "Raleway", sans-serif; }
+      font-family: "Helvetica", sans-serif; }
       .post-block .post-categories a:last-child {
         margin-right: 0; }
       .post-block .post-categories a:hover {
@@ -1637,7 +1637,7 @@ body.maintenance-page {
       margin: 0;
       line-height: 20px;
       padding: 20px 0 6px;
-      font-family: "Raleway", sans-serif;
+      font-family: "Helvetica", sans-serif;
       text-transform: capitalize; }
     .team-block.team-v1 .team-content .team-job {
       font-size: 13px;
@@ -1647,7 +1647,7 @@ body.maintenance-page {
     font-weight: 400 !important;
     font-size: 12px;
     color: #000;
-    font-family: "Raleway", sans-serif;
+    font-family: "Helvetica", sans-serif;
     text-transform: capitalize; }
   .team-block.team-v1 .team-skills .progress {
     margin-bottom: 11px !important;
@@ -1741,7 +1741,7 @@ body.maintenance-page {
         color: #fff;
         line-height: 22px;
         font-size: 20px;
-        font-family: "Raleway", sans-serif;
+        font-family: "Helvetica", sans-serif;
         letter-spacing: -0.4px;
         margin-top: 5px;
         margin-bottom: 5px;
@@ -2322,13 +2322,13 @@ body.maintenance-page {
   font-size: 16px;
   line-height: 32px;
   font-weight: 400;
-  font-family: "Raleway", sans-serif; }
+  font-family: "Helvetica", sans-serif; }
 
 .text-medium {
   font-size: 14px;
   line-height: 30px;
   font-weight: 400;
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica", sans-serif;
   color: #000;
   max-width: 850px;
   margin: 0 auto;
@@ -2761,7 +2761,7 @@ div.error {
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
   text-transform: uppercase;
   border: none;
-  font-family: "Raleway", sans-serif; }
+  font-family: "Helvetica", sans-serif; }
   .button:hover, .button:focus, .button:active, .button.active, .btn:hover, .btn:focus, .btn:active, .btn.active, .btn-white:hover, .btn-white:focus, .btn-white:active, .btn-white.active, .btn-theme:hover, .btn-theme:focus, .btn-theme:active, .btn-theme.active, .btn-theme-second:hover, .btn-theme-second:focus, .btn-theme-second:active, .btn-theme-second.active, .more-link a:hover, .more-link a:focus, .more-link a:active, .more-link a.active, .btn-theme-submit:hover, .btn-theme-submit:focus, .btn-theme-submit:active, .btn-theme-submit.active {
     background: #679431;
     color: #fff;
@@ -2809,7 +2809,7 @@ div.error {
   -ms-transition: all 0.35s;
   font-weight: 600;
   padding-right: 32px;
-  font-family: "Raleway", sans-serif; }
+  font-family: "Helvetica", sans-serif; }
   .btn-inline:after {
     content: '\f061';
     font-family: "FontAwesome";
@@ -2856,7 +2856,7 @@ div.error {
   text-transform: uppercase;
   margin-bottom: 2px;
   text-align: left;
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica", sans-serif;
   letter-spacing: 1px; }
 
 .progress {
@@ -2913,7 +2913,7 @@ div.error {
       font-weight: 700;
       color: #000;
       font-size: 16px;
-      font-family: "Raleway", sans-serif;
+      font-family: "Helvetica", sans-serif;
       text-transform: uppercase; }
   .pricing-table .content-wrap .plan-price {
     margin: 0 0 10px;
@@ -2935,7 +2935,7 @@ div.error {
         line-height: 48px;
         float: left;
         color: #8EC44D;
-        font-family: "Raleway", sans-serif; }
+        font-family: "Helvetica", sans-serif; }
     .pricing-table .content-wrap .plan-price .interval {
       margin-top: 18px;
       font-size: 12px;
@@ -2945,7 +2945,7 @@ div.error {
       display: block;
       color: #7b7b7b;
       float: left;
-      font-family: "Raleway", sans-serif;
+      font-family: "Helvetica", sans-serif;
       text-transform: uppercase; }
   .pricing-table .plan-list {
     padding: 0;
@@ -3020,7 +3020,7 @@ div.error {
     .pricing-vertical ul > li {
       height: 4.875em;
       padding: 1.625em 0;
-      font-family: "Raleway", sans-serif; }
+      font-family: "Helvetica", sans-serif; }
       .pricing-vertical ul > li:nth-child(odd) {
         background: #f5f5f5; }
       .pricing-vertical ul > li .checkmark, .pricing-vertical ul > li .crossmark {
@@ -3078,14 +3078,14 @@ div.error {
         line-height: 1; }
         .pricing-vertical div[class*='col-'] .pricing-title .pricing-price .pricing-dollar {
           font-size: 16px;
-          font-family: "Raleway", sans-serif;
+          font-family: "Helvetica", sans-serif;
           position: relative;
           top: -8px;
           color: #000; }
         .pricing-vertical div[class*='col-'] .pricing-title .pricing-price .price {
           font-size: 30px;
           font-weight: 700;
-          font-family: "Raleway", sans-serif;
+          font-family: "Helvetica", sans-serif;
           color: #000; }
   .pricing-vertical .col-heading {
     font-size: 16px;
@@ -3242,7 +3242,7 @@ div.error {
     padding-left: 15px;
     padding-bottom: 8px;
     border-bottom: 1px solid #E6E6E6;
-    font-family: "Raleway", sans-serif; }
+    font-family: "Helvetica", sans-serif; }
     #node-single-comment h2:before {
       content: "";
       position: absolute;
@@ -3475,7 +3475,7 @@ form summary {
   background: #8EC44D;
   color: #fff;
   padding: 4px 15px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-weight: 500;
   margin-bottom: 15px; }
   form summary a {
@@ -3502,7 +3502,7 @@ form .form-item label {
 .user-login-form .form-item, .user-register-form .form-item, .user-form .form-item, .user-pass .form-item {
   margin-bottom: 15px; }
   .user-login-form .form-item label, .user-register-form .form-item label, .user-form .form-item label, .user-pass .form-item label {
-    font-family: "Raleway", sans-serif; }
+    font-family: "Helvetica", sans-serif; }
 
 #user-login-form .form-item label {
   width: 100%;
@@ -3821,7 +3821,7 @@ div.resizable-textarea textarea {
 form .mailchimp-newsletter-mergefields .form-item {
   margin-bottom: 15px; }
   form .mailchimp-newsletter-mergefields .form-item label {
-    font-family: "Raleway", sans-serif; }
+    font-family: "Helvetica", sans-serif; }
   form .mailchimp-newsletter-mergefields .form-item input[type="text"],
   form .mailchimp-newsletter-mergefields .form-item input[type="tel"],
   form .mailchimp-newsletter-mergefields .form-item input[type="password"],
@@ -3958,7 +3958,7 @@ form .mailchimp-newsletter-mergefields .form-item {
     margin: 0 0 25px;
     padding: 0 0 20px;
     text-transform: uppercase;
-    font-family: "Raleway", sans-serif;
+    font-family: "Helvetica", sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #000;
@@ -4232,7 +4232,7 @@ nav.breadcrumb {
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 10px;
-    font-family: "Raleway", sans-serif;
+    font-family: "Helvetica", sans-serif;
     text-transform: uppercase; }
   .contact-link .action {
     margin-top: 20px; }
@@ -4246,7 +4246,7 @@ nav.breadcrumb {
     font-weight: 700;
     margin-bottom: 10px;
     color: #fff;
-    font-family: "Raleway", sans-serif; }
+    font-family: "Helvetica", sans-serif; }
   .company-presentation .action {
     margin-top: 20px; }
 
@@ -4280,7 +4280,7 @@ nav.breadcrumb {
     color: #fff;
     margin-top: 15px;
     line-height: 32px;
-    font-family: "Raleway", sans-serif; }
+    font-family: "Helvetica", sans-serif; }
   .box-search-team .link {
     margin-top: 15px; }
     .box-search-team .link a {
@@ -5299,7 +5299,7 @@ nav.breadcrumb {
           -moz-transition: all 0.35s;
           -ms-transition: all 0.35s;
           text-align: center;
-          font-family: "Raleway", sans-serif;
+          font-family: "Helvetica", sans-serif;
           text-transform: uppercase;
           color: #1a1a1a;
           letter-spacing: 0.6px; } }
@@ -5401,7 +5401,7 @@ nav.breadcrumb {
               padding: 0 0 5px;
               margin-bottom: 5px;
               border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
-              font-family: "Raleway", sans-serif;
+              font-family: "Helvetica", sans-serif;
               position: relative; }
               .navigation .gva_menu .megamenu > .sub-menu > li > a:after, .navigation .gva_menu .gva-mega-menu > .sub-menu > li > a:after {
                 display: none; }
@@ -5456,7 +5456,7 @@ nav.breadcrumb {
             -moz-transition: all 0.2s ease-out;
             -ms-transition: all 0.2s ease-out;
             position: relative;
-            font-family: "Raleway", sans-serif; }
+            font-family: "Helvetica", sans-serif; }
             .navigation .gva_menu .sub-menu > li > a:hover, .navigation .gva_menu .sub-menu > li > a:focus, .navigation .gva_menu .sub-menu > li > a:active {
               color: #8EC44D; }
           .navigation .gva_menu .sub-menu > li:nth-child(2n+1) {
@@ -5645,7 +5645,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
     -ms-transition: all 0.35s;
     position: relative;
     font-weight: 700;
-    font-family: "Raleway", sans-serif; }
+    font-family: "Helvetica", sans-serif; }
     .category-list .item-list ul li a:hover, .category-list .item-list ul li a:focus, .category-list .item-list ul li a:active {
       color: #8EC44D; }
 
@@ -5829,7 +5829,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
     -moz-transition: all 0.35s;
     -ms-transition: all 0.35s;
     font-weight: 700;
-    font-family: "Raleway", sans-serif;
+    font-family: "Helvetica", sans-serif;
     border: 1px solid #dee2e6;
     text-transform: uppercase; }
     .tags-list .item-list > ul > li a:hover, .tags-list .item-list > ul > li a:focus, .tags-list .item-list > ul > li a:active {
@@ -5866,7 +5866,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
   position: relative; }
   .gbb-row-wrapper .row-text-overlay {
     font-size: 50px;
-    font-family: "Raleway", sans-serif;
+    font-family: "Helvetica", sans-serif;
     font-weight: 900;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.09);
@@ -6238,7 +6238,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
     background: #909090;
     padding: 2px 10px;
     font-size: 11px !important;
-    font-family: "Raleway", sans-serif !important;
+    font-family: "Helvetica", sans-serif !important;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -6297,7 +6297,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
   margin-bottom: 2px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica", sans-serif;
   letter-spacing: 3px; }
 
 .gsc-call-to-action .heading-line.heading-line-1 {
@@ -6533,7 +6533,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
         text-align: center; }
         .gsc-carousel-content .item .item-content .content-box-wrapper .content-box .content-inner .caption-title {
           font-size: 42px;
-          font-family: "Raleway", sans-serif;
+          font-family: "Helvetica", sans-serif;
           font-weight: 900;
           margin-bottom: 12px;
           line-height: 1.2; }
@@ -6546,7 +6546,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
         .gsc-carousel-content .item .item-content .content-box-wrapper .content-box .content-inner .caption-description {
           font-size: 16px;
           margin-bottom: 20px;
-          font-family: "Raleway", sans-serif; }
+          font-family: "Helvetica", sans-serif; }
     .gsc-carousel-content .item .item-content .content-box-wrapper.style-1 .content-box .caption-title a {
       color: #fff; }
       .gsc-carousel-content .item .item-content .content-box-wrapper.style-1 .content-box .caption-title a:hover {
@@ -6621,7 +6621,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
       font-size: 18px;
       color: #2B2B33;
       margin: 0 0 6px;
-      font-family: "Raleway", sans-serif;
+      font-family: "Helvetica", sans-serif;
       text-transform: capitalize; }
     .gsc-icon-box .highlight_content .desc p {
       margin-bottom: 0; }
@@ -7112,7 +7112,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
     line-height: 1.1; }
   .milestone-block.position-icon-top .milestone-text {
     font-size: 14px;
-    font-family: "Raleway", sans-serif;
+    font-family: "Helvetica", sans-serif;
     font-weight: 700;
     color: #0a0f2b;
     text-transform: uppercase; }
@@ -7176,7 +7176,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
     .milestone-block.position-icon-left .milestone-right .milestone-text {
       font-size: 12px;
       text-transform: uppercase;
-      font-family: "Raleway", sans-serif;
+      font-family: "Helvetica", sans-serif;
       text-align: left;
       font-weight: 500;
       letter-spacing: 2px;
@@ -7244,7 +7244,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
     .milestone-block.position-icon-left-2 .milestone-right .milestone-text {
       font-size: 12px;
       text-transform: uppercase;
-      font-family: "Raleway", sans-serif;
+      font-family: "Helvetica", sans-serif;
       text-align: left;
       font-weight: 700;
       letter-spacing: 1px;
@@ -7343,7 +7343,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
         color: #fff; }
       .gsc-content-images-parallax.style-v1 .content .title {
         font-size: 16px;
-        font-family: "Raleway", sans-serif;
+        font-family: "Helvetica", sans-serif;
         position: relative;
         line-height: 42px;
         margin-bottom: 5px;
@@ -7418,7 +7418,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
         color: #fff; }
       .gsc-content-images-parallax.style-v2 .content .title {
         font-size: 16px;
-        font-family: "Raleway", sans-serif;
+        font-family: "Helvetica", sans-serif;
         position: relative;
         color: #0a0f2b;
         line-height: 1.3;
@@ -7484,7 +7484,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
       width: 100%;
       height: 100%;
       text-transform: capitalize;
-      font-family: "Raleway", sans-serif; }
+      font-family: "Helvetica", sans-serif; }
       .gsc-video-box.style-1 .image .popup-video .icon {
         position: absolute;
         width: 50px;
@@ -7530,7 +7530,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
         padding: 5px 66px 0 0;
         text-align: right;
         color: #fff;
-        font-family: "Raleway", sans-serif;
+        font-family: "Helvetica", sans-serif;
         letter-spacing: 2px;
         position: relative;
         z-index: 9; }
@@ -7574,7 +7574,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
       width: 100%;
       height: 100%;
       text-transform: capitalize;
-      font-family: "Raleway", sans-serif; }
+      font-family: "Helvetica", sans-serif; }
       .gsc-video-box.style-2 .image .popup-video .icon {
         position: absolute;
         width: 50px;
@@ -7604,7 +7604,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
       margin: 20px 0 0 35px;
       position: relative;
       float: left;
-      font-family: "Raleway", sans-serif;
+      font-family: "Helvetica", sans-serif;
       text-transform: capitalize; }
       .gsc-video-box.style-2 .video-content .link-video:after {
         content: "";
@@ -7615,7 +7615,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
         top: 14px;
         left: -35px; }
       .gsc-video-box.style-2 .video-content .link-video strong {
-        font-family: "Raleway", sans-serif;
+        font-family: "Helvetica", sans-serif;
         font-size: 14px; }
     .gsc-video-box.style-2 .video-content .button-review {
       float: right;
@@ -7636,7 +7636,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
         font-weight: 700;
         font-size: 12px;
         text-transform: capitalize;
-        font-family: "Raleway", sans-serif;
+        font-family: "Helvetica", sans-serif;
         letter-spacing: 2px; }
         .gsc-video-box.style-2 .video-content .button-review a:hover {
           color: #fff;
@@ -7791,7 +7791,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
   position: relative;
   font-weight: 700;
   margin: 0;
-  font-family: "Raleway", sans-serif; }
+  font-family: "Helvetica", sans-serif; }
 
 .gsc-team .team-position {
   text-transform: capitalize;
@@ -7945,7 +7945,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
     margin: 12px 0 2px;
     line-height: 24px;
     font-size: 18px;
-    font-family: "Raleway", sans-serif; }
+    font-family: "Helvetica", sans-serif; }
     .gsc-team.team-vertical .team-name a:hover, .gsc-team.team-vertical .team-name a:focus, .gsc-team.team-vertical .team-name a:active {
       color: #fff; }
   .gsc-team.team-vertical .team-job {
@@ -8032,7 +8032,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
   .gsc-team.team-circle .team-name {
     padding: 0;
     color: #0a0f2b;
-    font-family: "Raleway", sans-serif; }
+    font-family: "Helvetica", sans-serif; }
   .gsc-team.team-circle .team-position {
     color: #999;
     margin: 5px 0 0; }
@@ -8105,7 +8105,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
     margin-bottom: 15px;
     font-weight: 700;
     color: #000;
-    font-family: "Raleway", sans-serif;
+    font-family: "Helvetica", sans-serif;
     text-transform: capitalize; }
     @media (max-width: 767.98px) {
       .gsc-quotes-rotator .cbp-qtrotator .cbp-qtcontent .content-title {
@@ -8172,7 +8172,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
       font-size: 12px;
       text-transform: uppercase;
       font-weight: 700;
-      font-family: "Raleway", sans-serif;
+      font-family: "Helvetica", sans-serif;
       display: inline-block;
       color: #8EC44D; }
     .gva-job-box .content-inner .box-title {
@@ -8180,7 +8180,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
       .gva-job-box .content-inner .box-title .title {
         font-size: 14px;
         font-weight: 700;
-        font-family: "Raleway", sans-serif;
+        font-family: "Helvetica", sans-serif;
         color: #0a0f2b;
         text-transform: uppercase; }
     .gva-job-box .content-inner .information ul {
@@ -8209,7 +8209,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
     .gsc-our-gallery .item .box-content .title {
       color: #fff;
       font-size: 22px;
-      font-family: "Raleway", sans-serif;
+      font-family: "Helvetica", sans-serif;
       font-weight: 700;
       line-height: 32px;
       position: relative;
@@ -8296,7 +8296,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
       padding-bottom: 15px;
       margin-bottom: 15px;
       text-transform: capitalize;
-      font-family: "Raleway", sans-serif;
+      font-family: "Helvetica", sans-serif;
       font-weight: 20px; }
       .gsc-box-hover .backend .box-title:after {
         content: '';
@@ -8321,7 +8321,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
         text-transform: capitalize;
         font-size: 14px;
         font-weight: 700;
-        font-family: "Raleway", sans-serif; }
+        font-family: "Helvetica", sans-serif; }
         .gsc-box-hover .backend .link-action a i {
           margin-left: 6px; }
         .gsc-box-hover .backend .link-action a:hover {
@@ -8336,7 +8336,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
     line-height: 1.2;
     padding-bottom: 12px;
     text-transform: capitalize;
-    font-family: "Raleway", sans-serif; }
+    font-family: "Helvetica", sans-serif; }
   .gsc-box-hover:hover .frontend, .gsc-box-hover:hover .backend, .gsc-box-hover:active .frontend, .gsc-box-hover:active .backend, .gsc-box-hover:focus .frontend, .gsc-box-hover:focus .backend, .gsc-box-hover.active .frontend, .gsc-box-hover.active .backend {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
@@ -8358,7 +8358,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
     font-size: 32px;
     font-weight: 700;
     color: #000;
-    font-family: "Raleway", sans-serif;
+    font-family: "Helvetica", sans-serif;
     text-transform: uppercase; }
   .gsc-text-rotate .rotate-text .second-text {
     font-size: 14px;
@@ -8421,7 +8421,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
     margin-bottom: 2px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Raleway", sans-serif;
+    font-family: "Helvetica", sans-serif;
     letter-spacing: 3px; }
   .gsc-heading .heading-line.heading-line-1 {
     width: 80px;
@@ -8542,7 +8542,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
       position: relative;
       font-size: 14px;
       color: #000;
-      font-family: "Raleway", sans-serif;
+      font-family: "Helvetica", sans-serif;
       margin: 20px 0 15px;
       text-transform: uppercase; }
 
@@ -8706,7 +8706,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
   border-bottom: 0; }
   .gsc-tabs .tabs_wrapper.tabs_horizontal .nav-tabs > li a {
     display: block;
-    font-family: "Raleway", sans-serif; }
+    font-family: "Helvetica", sans-serif; }
 
 .gsc-tabs .tabs_wrapper.tabs_horizontal .tab-content {
   border: 1px solid #dee2e6; }
@@ -8738,7 +8738,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
       .gsc-tabs .tabs_wrapper.tabs_vertical .nav-tabs > li a {
         width: 100%;
         display: block;
-        font-family: "Raleway", sans-serif; }
+        font-family: "Helvetica", sans-serif; }
       .gsc-tabs .tabs_wrapper.tabs_vertical .nav-tabs > li:last-child {
         margin-bottom: 0;
         border: none; }
@@ -8944,7 +8944,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
         font-weight: 700;
         font-size: 14px;
         text-transform: capitalize;
-        font-family: "Raleway", sans-serif;
+        font-family: "Helvetica", sans-serif;
         line-height: 20px;
         display: inline-block; }
     .gsc-service-carousel .item .content-inner:hover, .gsc-service-carousel .item .content-inner:focus, .gsc-service-carousel .item .content-inner:active {
@@ -9266,7 +9266,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
           font-weight: 700;
           color: #000 !important;
           text-transform: uppercase;
-          font-family: "Raleway", sans-serif; }
+          font-family: "Helvetica", sans-serif; }
           .gva-offcanvas-mobile .gva-navigation .gva_menu > li > a:after, .gva-offcanvas-mobile .gva-navigation .gva_menu > li > a:before {
             content: none;
             display: none; }
@@ -9285,7 +9285,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
             line-height: 24px;
             padding-top: 2px !important;
             padding-bottom: 2px !important;
-            font-family: "Raleway", sans-serif; }
+            font-family: "Helvetica", sans-serif; }
             .gva-offcanvas-mobile .gva-navigation .gva_menu > li ul.menu.sub-menu li a:hover {
               color: #8EC44D !important; }
           .gva-offcanvas-mobile .gva-navigation .gva_menu > li ul.menu.sub-menu ul.sub-menu {
@@ -9303,7 +9303,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
           .gva-offcanvas-mobile .gva-navigation .gva_menu > li.megamenu .sub-menu > li.block-image {
             display: none; }
         .gva-offcanvas-mobile .gva-navigation .gva_menu > li.megamenu > .sub-menu > li > a {
-          font-family: "Raleway", sans-serif;
+          font-family: "Helvetica", sans-serif;
           color: #000;
           font-weight: 700;
           font-size: 15px; }
@@ -9676,7 +9676,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
         transition: all 0.35s;
         -moz-transition: all 0.35s;
         -ms-transition: all 0.35s;
-        font-family: "Raleway", sans-serif;
+        font-family: "Helvetica", sans-serif;
         font-size: 12px;
         background: #fff; }
         .portfolio-filter ul.nav-tabs > li > a:hover {
@@ -9791,7 +9791,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
         color: #fff;
         font-weight: 700;
         line-height: 22px;
-        font-family: "Raleway", sans-serif;
+        font-family: "Helvetica", sans-serif;
         text-transform: capitalize; }
         .portfolio-v1 .content-inner .title a:hover, .portfolio-v1 .content-inner .title a:focus, .portfolio-v1 .content-inner .title a:active {
           text-decoration: underline; }
@@ -9806,7 +9806,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
         text-transform: uppercase;
         font-weight: 700;
         letter-spacing: 0.5px;
-        font-family: "Raleway", sans-serif; }
+        font-family: "Helvetica", sans-serif; }
         .portfolio-v1 .content-inner .category a:hover, .portfolio-v1 .content-inner .category a:focus, .portfolio-v1 .content-inner .category a:active {
           text-decoration: underline; }
   .portfolio-v1:hover .content-inner, .portfolio-v1:active .content-inner, .portfolio-v1:focus .content-inner {
@@ -9913,7 +9913,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
         color: #0a0f2b;
         line-height: 22px;
         text-transform: capitalize;
-        font-family: "Raleway", sans-serif; }
+        font-family: "Helvetica", sans-serif; }
         .portfolio-v2 .content-inner .title a:hover, .portfolio-v2 .content-inner .title a:focus, .portfolio-v2 .content-inner .title a:active {
           text-decoration: underline; }
     .portfolio-v2 .content-inner .action {
@@ -9996,7 +9996,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
           padding-right: 40px;
           opacity: 0;
           filter: alpha(opacity=0);
-          font-family: "Raleway", sans-serif;
+          font-family: "Helvetica", sans-serif;
           color: #000; }
           .portfolio-carousel-single .portfolio-item .images .read-more a:hover {
             color: #8EC44D; }
@@ -10039,7 +10039,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
           color: #2B2B33;
           font-weight: 700;
           letter-spacing: 1px;
-          font-family: "Raleway", sans-serif;
+          font-family: "Helvetica", sans-serif;
           background: #fff;
           display: inline-block;
           padding: 0 5px;
@@ -10067,7 +10067,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
           font-size: 20px;
           font-weight: 800;
           text-transform: uppercase;
-          font-family: "Raleway", sans-serif;
+          font-family: "Helvetica", sans-serif;
           color: #000; }
           .portfolio-carousel-single .portfolio-item .portfolio-content .title a:hover {
             color: #8EC44D; }
@@ -10156,7 +10156,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
     .testimonial-node-v1 .testimonial-content .title {
       font-size: 18px;
       color: #2B2B33;
-      font-family: "Raleway", sans-serif;
+      font-family: "Helvetica", sans-serif;
       font-weight: 700;
       text-transform: capitalize;
       margin-bottom: 10px; }
@@ -10189,7 +10189,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
           font-weight: 700;
           color: #000;
           font-size: 13px;
-          font-family: "Raleway", sans-serif;
+          font-family: "Helvetica", sans-serif;
           text-transform: uppercase;
           margin-bottom: 0;
           letter-spacing: 1px; }
@@ -10283,7 +10283,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
     font-size: 18px;
     margin-top: 15px;
     color: #000;
-    font-family: "Raleway", sans-serif; }
+    font-family: "Helvetica", sans-serif; }
   .testimonial-node-2 .job {
     font-size: 13px; }
 
@@ -10322,7 +10322,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
     position: relative;
     padding-top: 10px;
     color: #838383;
-    font-family: "Raleway", sans-serif; }
+    font-family: "Helvetica", sans-serif; }
     @media (max-width: 767.98px) {
       .testimonial-node-v3 .quote {
         font-size: 16px;
@@ -10334,13 +10334,13 @@ ul[data-drupal-views-infinite-scroll-pager] {
     .testimonial-node-v3 .info .name {
       font-size: 12px;
       font-weight: 700;
-      font-family: "Raleway", sans-serif;
+      font-family: "Helvetica", sans-serif;
       color: #2B2B33;
       text-transform: uppercase; }
   .testimonial-node-v3 .content-inner .title {
     font-size: 18px;
     font-weight: 700;
-    font-family: "Raleway", sans-serif;
+    font-family: "Helvetica", sans-serif;
     color: #2B2B33;
     text-transform: capitalize;
     margin-top: 10px; }
@@ -10418,7 +10418,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
       margin-bottom: 25px; }
     .service-block .service-block-content .service-content .title {
       font-size: 18px;
-      font-family: "Raleway", sans-serif; }
+      font-family: "Helvetica", sans-serif; }
     .service-block .service-block-content .service-content .desc {
       margin: 10px 0; }
   .service-block .frontend, .service-block .backend {
@@ -10632,7 +10632,7 @@ ul[data-drupal-views-infinite-scroll-pager] {
     background: #fff;
     font-size: 14px;
     position: relative;
-    font-family: "Raleway", sans-serif;
+    font-family: "Helvetica", sans-serif;
     text-transform: capitalize;
     color: #0a0f2b; }
     @media (max-width: 992px) {
@@ -10873,7 +10873,7 @@ body.path-services .body-page {
   margin-bottom: 20px; }
   #customize-gavias-preivew .card .card-header a {
     padding: 10px !important;
-    font-family: "Raleway", sans-serif;
+    font-family: "Helvetica", sans-serif;
     font-weight: 600;
     color: #0a0f2b; }
     #customize-gavias-preivew .card .card-header a:after {
@@ -10895,7 +10895,7 @@ body.path-services .body-page {
     padding-top: 10px;
     font-size: 12px;
     color: #0a0f2b;
-    font-family: "Raleway", sans-serif;
+    font-family: "Helvetica", sans-serif;
     font-weight: 400; }
   #customize-gavias-preivew .form-group input {
     width: calc(100% - 150px);

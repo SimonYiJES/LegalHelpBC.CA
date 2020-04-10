@@ -72,12 +72,12 @@
   font-family: "Open Sans", sans-serif; }
 
 .gavias_sliderlayer .slide-style-3, #gavias_slider_single .slide-style-3 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-weight: 700;
   letter-spacing: 4px; }
 
 .gavias_sliderlayer .slide-style-3a, #gavias_slider_single .slide-style-3a {
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-weight: 900;
   letter-spacing: -4px; }
   @media (max-width: 767.98px) {
@@ -85,11 +85,11 @@
       letter-spacing: 0; } }
 
 .gavias_sliderlayer .slide-style-3b, #gavias_slider_single .slide-style-3b {
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-weight: 800; }
 
 .gavias_sliderlayer .slide-style-4, #gavias_slider_single .slide-style-4 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-weight: 400; }
 
 .gavias_sliderlayer .sub-title, #gavias_slider_single .sub-title {
@@ -181,7 +181,7 @@
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica", sans-serif;
   border: none; }
   .gavias_sliderlayer .btn-slide.inner:hover, .gavias_sliderlayer .btn-slide.inner:focus, .gavias_sliderlayer .btn-slide.inner:active, .gavias_sliderlayer .btn-slide.inner.active, .gavias_sliderlayer .btn-slide a:hover, .gavias_sliderlayer .btn-slide a:focus, .gavias_sliderlayer .btn-slide a:active, .gavias_sliderlayer .btn-slide a.active, #gavias_slider_single .btn-slide.inner:hover, #gavias_slider_single .btn-slide.inner:focus, #gavias_slider_single .btn-slide.inner:active, #gavias_slider_single .btn-slide.inner.active, #gavias_slider_single .btn-slide a:hover, #gavias_slider_single .btn-slide a:focus, #gavias_slider_single .btn-slide a:active, #gavias_slider_single .btn-slide a.active {
     color: #fff;
@@ -209,7 +209,7 @@
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica", sans-serif;
   border: none; }
   .gavias_sliderlayer .btn-slide-white.inner:hover, .gavias_sliderlayer .btn-slide-white.inner:focus, .gavias_sliderlayer .btn-slide-white.inner:active, .gavias_sliderlayer .btn-slide-white.inner.active, .gavias_sliderlayer .btn-slide-white a:hover, .gavias_sliderlayer .btn-slide-white a:focus, .gavias_sliderlayer .btn-slide-white a:active, .gavias_sliderlayer .btn-slide-white a.active, #gavias_slider_single .btn-slide-white.inner:hover, #gavias_slider_single .btn-slide-white.inner:focus, #gavias_slider_single .btn-slide-white.inner:active, #gavias_slider_single .btn-slide-white.inner.active, #gavias_slider_single .btn-slide-white a:hover, #gavias_slider_single .btn-slide-white a:focus, #gavias_slider_single .btn-slide-white a:active, #gavias_slider_single .btn-slide-white a.active {
     color: #EE450A;

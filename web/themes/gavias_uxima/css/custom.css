@@ -540,5 +540,8 @@ margin-top: 20px;
     padding-bottom: 0 !important;
   }
 
-
+  .header-main .header-main-inner .header-inner ul li a{
+    font-size: 23px !important;
+    line-height: 1em;
+  }
 }

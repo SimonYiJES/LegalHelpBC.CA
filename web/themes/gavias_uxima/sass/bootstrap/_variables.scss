@@ -127,7 +127,7 @@ $spacers: map-merge((
 ), $spacers);
 
 // This variable affects the `.h-*` and `.w-*` classes.
-$sizes: () !default; 
+$sizes: () !default;
 $sizes: map-merge((
   25: 25%,
   50: 50%,
@@ -250,7 +250,7 @@ $h5-font-size:                $font-size-base * 1.2 !default;
 $h6-font-size:                $font-size-base !default;
 
 $headings-margin-bottom:      ($spacer / 2) !default;
-$headings-font-family:        'Raleway' !default;
+$headings-font-family:        'Helvetica' !default;
 $headings-font-weight:        700 !default;
 $headings-line-height:        1.2 !default;
 $headings-color:              #0a0f2b !default;
