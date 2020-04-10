@@ -42,6 +42,14 @@ header.header-1{
   padding-top: 1.2em !important;
   padding-bottom: 1.2em !important;
   font-size: 16px !important;
+
+}
+.header-main .header-main-inner .header-inner ul li.menu-item--active-trail a{
+  color: #e16a2d !important;
+  font-weight: bold;
+}
+.header-main .header-main-inner .header-inner ul li a:hover{
+  color: #e16a2d !important;
 }
 input#edit-keys--2{
   width: 60%;
@@ -203,6 +211,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   border-radius: 30px;
   text-transform: capitalize;
   font-size: 1.3em;
+  font-weight: 500;
 }
 #footer #block-fundedby h2.block-title span{
   color: #3b3d40 !important;
@@ -283,7 +292,13 @@ a{
 .frontpage .main-category ul{
   padding-left: 0;
 }
+.frontpage .main-category ul li img{
+  position: relative;
+  vertical-align: inherit;
+  height: auto;
+}
 .frontpage .main-category ul li {
+
   list-style: none;
   display: inline-block;
 
@@ -293,12 +308,10 @@ a{
 }
 .frontpage .main-category ul li .icon{
   margin-right: 20px;
-  float: left;
 
 }
 .frontpage .main-category ul li .content{
   width: 80%;
-  float: left;
 }
 
 .frontpage .main-category ul li .btn{
@@ -342,7 +355,42 @@ input.button{
 }
 #block-askjes .btn.white{
   background-color: #ffffff !important;
-
+  color: #000000;
+  border-radius: 25px;
+  width: 100%;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 1.1em;
+}
+.copyright {
+  height: 225px;
+}
+.copyright .copyright-right {
+  float: right;
+  width: 220px;
+}
+.copyright .copyright-left {
+  float: left;
+}
+.copyright .follow-us {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  vertical-align: middle;
+  line-height: 2em;
+}
+.copyright .icons a {
+  margin-right: 5px;
+}
+.copyright .sns {
+  margin-top: 10px;
+}
+.copyright .cc img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+#block-copyrightphone{
+  display: none;
 }
 @media (min-width: 1200px){
   .footer-second.col-xl-3 {
@@ -455,4 +503,42 @@ input.button{
   #header .topbar .container{
     /*border-bottom: none;*/
   }
+  #block-copyright{
+    display: none;
+  }
+  #block-copyrightphone{
+    display: block;
+  }
+  .copyright {
+    height: 400px;
+  }
+  #block-copyrightphone .footer-jes-logo{
+    float: right;
+  }
+  #block-copyrightphone .footer-jes-logo img{
+    width: 120px;
+  }
+  #block-copyrightphone .copyright-text{
+margin-top: 20px;
+  }
+  #block-copyrightphone .sns{
+    margin-top: 63px;
+  }
+  #block-copyrightphone .cc{
+    font-size: 0.8em;
+  }
+  .frontpage .main-category ul li .icon{
+    float: left;
+
+  }
+  .frontpage .main-category ul li .content{
+    float: left;
+
+  }
+  header.header-1 .header-main-inner .navigation .gva_menu > li > a{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+
 }
