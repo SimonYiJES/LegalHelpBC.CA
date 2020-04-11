@@ -78,7 +78,9 @@ class RsyncCommands extends DrushCommands implements SiteAliasManagerAwareInterf
         $process = $this->processManager()->shell($exec);
         $process->run($process->showRealtime());
 
-        if (!$process->isSuccessful()) {
+        if ($process->isSuccessful()) {
+            drush_backend_set_result($this->targetEvaluatedPath->fullyQualifiedPath());
+        } else {
             throw new \Exception(dt("Could not rsync from !source to !dest", ['!source' => $this->sourceEvaluatedPath->fullyQualifiedPathPreservingTrailingSlash(), '!dest' => $this->targetEvaluatedPath->fullyQualifiedPath()]));
         }
     }

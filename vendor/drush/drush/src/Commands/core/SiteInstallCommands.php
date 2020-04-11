@@ -5,8 +5,6 @@ use Composer\Semver\Comparator;
 use Consolidation\AnnotatedCommand\CommandData;
 use Consolidation\SiteProcess\ProcessBase;
 use Drupal\Component\FileCache\FileCacheFactory;
-use Drupal\Core\Database\Database;
-use Drupal\Core\Installer\Exception\AlreadyInstalledException;
 use Drush\Commands\DrushCommands;
 use Drush\Drush;
 use Drush\Exceptions\UserAbortException;
@@ -80,11 +78,14 @@ class SiteInstallCommands extends DrushCommands implements SiteAliasManagerAware
         $class_loader = Drush::service('loader');
         $profile = $this->determineProfile($profile, $options, $class_loader);
 
+        $sql = SqlBase::create($options);
+        $db_spec = $sql->getDbSpec();
+
         $account_pass = $options['account-pass'] ?: StringUtils::generatePassword();
 
         // Was giving error during validate() so its here for now.
         if ($options['existing-config']) {
-            $existing_config_dir = drush_config_get_config_directory();
+            $existing_config_dir = config_get_config_directory(CONFIG_SYNC_DIRECTORY);
             if (!is_dir($existing_config_dir)) {
                 throw new \Exception(dt('Existing config directory @dir not found', ['@dir' => $existing_config_dir]));
             }
@@ -98,6 +99,11 @@ class SiteInstallCommands extends DrushCommands implements SiteAliasManagerAware
                 'existing_config' => $options['existing-config'],
             ],
             'forms' => [
+                'install_settings_form' => [
+                    'driver' => $db_spec['driver'],
+                    $db_spec['driver'] => $db_spec,
+                    'op' => dt('Save and continue'),
+                ],
                 'install_configure_form' => [
                     'site_name' => $options['site-name'],
                     'site_mail' => $options['site-mail'],
@@ -118,16 +124,6 @@ class SiteInstallCommands extends DrushCommands implements SiteAliasManagerAware
             'config_install_path' => $options['config-dir'],
         ];
 
-        $sql = SqlBase::create($options);
-        if ($sql) {
-            $db_spec = $sql->getDbSpec();
-            $settings['forms']['install_settings_form'] = [
-                'driver' => $db_spec['driver'],
-                $db_spec['driver'] => $db_spec,
-                'op' => dt('Save and continue'),
-            ];
-        }
-
         // Merge in the additional options.
         foreach ($form_options as $key => $value) {
             $current = &$settings['forms'];
@@ -146,15 +142,7 @@ class SiteInstallCommands extends DrushCommands implements SiteAliasManagerAware
         require_once DRUSH_DRUPAL_CORE . '/includes/install.core.inc';
         // This can lead to an exit() in Drupal. See install_display_output() (e.g. config validation failure).
         // @todo Get Drupal to not call that function when on the CLI.
-        try {
-            drush_op('install_drupal', $class_loader, $settings);
-        } catch (AlreadyInstalledException $e) {
-            if ($sql && !$this->programExists($sql->command())) {
-                throw new \Exception(dt('Drush was unable to drop all tables because `@program` was not found, and therefore Drupal threw an AlreadyInstalledException. Ensure `@program` is available in your PATH.', ['@program' => $sql->command()]));
-            }
-            throw $e;
-        }
-
+        drush_op('install_drupal', $class_loader, $settings);
         if (empty($options['account-pass'])) {
             $this->logger()->success(dt('Installation complete.  User name: @name  User password: @pass', ['@name' => $options['account-name'], '@pass' => $account_pass]));
         } else {
@@ -175,7 +163,7 @@ class SiteInstallCommands extends DrushCommands implements SiteAliasManagerAware
         // @todo Arguably Drupal core [$boot->getKernel()->getInstallProfile()] could do this - https://github.com/drupal/drupal/blob/8.6.x/core/lib/Drupal/Core/DrupalKernel.php#L1606 reads from DB storage but not file storage.
         if (empty($profile) && $options['existing-config']) {
             FileCacheFactory::setConfiguration([FileCacheFactory::DISABLE_CACHE => true]);
-            $source_storage = new FileStorage(drush_config_get_config_directory());
+            $source_storage = new FileStorage(config_get_config_directory(CONFIG_SYNC_DIRECTORY));
             if (!$source_storage->exists('core.extension')) {
                 throw new \Exception('Existing configuration directory not found or does not contain a core.extension.yml file.".');
             }
@@ -250,7 +238,6 @@ class SiteInstallCommands extends DrushCommands implements SiteAliasManagerAware
      */
     public function validate(CommandData $commandData)
     {
-        $bootstrapManager = Drush::bootstrapManager();
         if ($sites_subdir = $commandData->input()->getOption('sites-subdir')) {
             $lower = strtolower($sites_subdir);
             if ($sites_subdir != $lower) {
@@ -258,6 +245,7 @@ class SiteInstallCommands extends DrushCommands implements SiteAliasManagerAware
                 $commandData->input()->setOption('sites-subdir', $lower);
             }
             // Make sure that we will bootstrap to the 'sites-subdir' site.
+            $bootstrapManager = Drush::bootstrapManager();
             $bootstrapManager->setUri('http://' . $sites_subdir);
         }
 
@@ -266,16 +254,9 @@ class SiteInstallCommands extends DrushCommands implements SiteAliasManagerAware
         }
 
         try {
-            // Try to get any already configured database information.
+            // Get AnnotationData. @todo Find a better way.
             $annotationData = Drush::getApplication()->find('site:install')->getAnnotationData();
-            $bootstrapManager->bootstrapMax(DRUSH_BOOTSTRAP_DRUPAL_CONFIGURATION, $annotationData);
-
-            // See https://github.com/drush-ops/drush/issues/3903.
-            // We may have bootstrapped with /default/settings.php instead of the sites-subdir one.
-            if ($sites_subdir && "sites/$sites_subdir" !== $bootstrapManager->bootstrap()->confpath(true)) {
-                Database::removeConnection('default');
-            }
-
+            Drush::bootstrapManager()->bootstrapMax(DRUSH_BOOTSTRAP_DRUPAL_CONFIGURATION, $annotationData);
             $sql = SqlBase::create($commandData->input()->getOptions());
         } catch (\Exception $e) {
             // Ask questions to get our data.
@@ -307,10 +288,8 @@ class SiteInstallCommands extends DrushCommands implements SiteAliasManagerAware
      */
     public function pre(CommandData $commandData)
     {
-        $db_spec = [];
-        if ($sql = SqlBase::create($commandData->input()->getOptions())) {
-            $db_spec = $sql->getDbSpec();
-        }
+        $sql = SqlBase::create($commandData->input()->getOptions());
+        $db_spec = $sql->getDbSpec();
 
         // This command is 'bootstrap root', so we should always have a
         // Drupal root. If we do not, $aliasRecord->root will throw.
@@ -344,10 +323,9 @@ class SiteInstallCommands extends DrushCommands implements SiteAliasManagerAware
             $msg[] = dt('create a @sitesfile file', ['@sitesfile' => $sitesfile]);
         }
 
-        $program = $sql ? $sql->command() : 'UNKNOWN';
-        $program_exists = $this->programExists($program);
+        $program_exists = $this->programExists($sql->command());
         if (!$program_exists) {
-            $msg[] = dt('Program @program not found. Proceed if you have already created or emptied the Drupal database.', ['@program' => $program]);
+            $msg[] = dt('Program @program not found. Proceed if you have already created or emptied the Drupal database.', ['@program' => $sql->command()]);
         } elseif ($sql->dbExists()) {
             $msg[] = dt("DROP all tables in your '@db' database.", ['@db' => $db_spec['database']]);
         } else {
@@ -386,7 +364,7 @@ class SiteInstallCommands extends DrushCommands implements SiteAliasManagerAware
         $bootstrapManager->doBootstrap(DRUSH_BOOTSTRAP_DRUPAL_SITE);
 
         if ($program_exists && !$sql->dropOrCreate()) {
-            $this->logger()->warning(dt('Failed to drop or create the database. Do it yourself before installing. @error', ['@error' => $sql->getProcess()->getErrorOutput()]));
+            throw new \Exception(dt('Failed to drop or create the database: @error', ['@error' => $sql->getProcess()->getOutput()]));
         }
     }
 
