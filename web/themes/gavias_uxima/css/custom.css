@@ -9,10 +9,7 @@ header.header-1{
   background-color: #00839b;
   border-bottom: none;
 }
-#header .topbar .container{
 
-  border-bottom: solid 1px #cccccc;
-}
 #content .help.gav-help-region{
   display: none !important;
 }
@@ -56,7 +53,11 @@ input#edit-keys--2{
 }
 #block-covid19 h2{
   color: #ffffff;
-  line-height: 2em;
+  line-height: 1.5em;
+}
+.logo-site{
+  margin-top: 20px;
+
 }
 #block-mainnav-3 ul.gva_menu li.menu-item{
   display: block;
@@ -96,7 +97,7 @@ input#edit-keys--2{
   text-transform: inherit;
 }
 #page-main-content {
-  padding-top: 80px;
+  padding-top: 40px;
 }
 .ui-accordion .ui-accordion-header{
   border: none;
@@ -198,9 +199,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 #block-askjes p{
   color: #ffffff;
-  font-style: italic;
+
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1em;
 }
 #block-askjes a{
   background-color: #ffffff;
@@ -212,6 +213,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   text-transform: capitalize;
   font-size: 1.3em;
   font-weight: 500;
+}
+body{
+  font-size: 1em;
+}
+h2, .h2{
+  font-size: 1.3em;
 }
 #footer #block-fundedby h2.block-title span{
   color: #3b3d40 !important;
@@ -235,6 +242,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .views-field-field-link .field-content, .views-field-field-updated .field-content, .views-field-field-category .field-content {
   display: inline-block;
+}
+.views-field-field-link .views-label-field-link{
+  color: #888888;
 }
 #block-views-block-updates-block-1   .views-field-field-category{
   margin-bottom: 20px;
@@ -392,10 +402,23 @@ input.button{
 #block-copyrightphone{
   display: none;
 }
+#block-mainnav ul.gva_menu {
+  margin-right: 34px;
+
+}
+#header .topbar .topbar-inner .container{
+
+}
+#header .topbar .topbar-content-inner.clearfix{
+  height: 150px;
+  border-bottom: solid #eeeeee 1px;
+  padding-right: 0;
+}
 @media (min-width: 1200px){
   .footer-second.col-xl-3 {
     max-width: 20%;
   }
+
   .footer-third.col-xl-6{
     width: 55%;
     max-width: 55%;
@@ -407,7 +430,7 @@ input.button{
   }
   .site-branding-logo{
     max-width: 66%;
-    padding-top: 45px !important;
+    padding-top: 25px !important;
   }
   #block-jesbranding img{
     width: 30%;
@@ -461,8 +484,12 @@ input.button{
     margin-bottom: 50px;
     background-color: #f9f9f9;
   }
-  .search-block-form{
-    display: none;
+  #search-block-form input{
+    width: 230px;
+  }
+  #search-block-form input:first-child{
+    /*display: none;*/
+    width: 120px;
   }
   #block-mainnav-3-menu {
     text-align: center;
@@ -496,9 +523,10 @@ input.button{
   }
   #block-covid19 h2{
     line-height: 1.5em;
+    margin-top: 10px;
   }
   #menu-bar {
-    top: 8%;
+    top: 15%;
   }
   #header .topbar .container{
     /*border-bottom: none;*/
@@ -543,5 +571,25 @@ margin-top: 20px;
   .header-main .header-main-inner .header-inner ul li a{
     font-size: 23px !important;
     line-height: 1em;
+  }
+  #header .topbar .topbar-content-inner.clearfix{
+    height: 130px;
+  }
+  #header .topbar .container{
+    height: 136px;
+
+  }
+  .branding #block-covid19{
+    margin-bottom: 0;
+  }
+  header.header-1 .header-main-inner .header-inner{
+    display: contents
+
+  }
+  .footer-second img:first-child{
+    margin-right: 10px;
+  }
+  #block-informationfrom ul li:nth-child(odd) {
+    margin-right: 50px;
   }
 }

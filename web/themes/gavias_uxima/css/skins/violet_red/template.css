@@ -4023,7 +4023,7 @@ form .mailchimp-newsletter-mergefields .form-item {
   .block.block-blocktabs {
     position: relative; }
     .block.block-blocktabs .ui-widget {
-      font-family: "Open Sans", sans-serif;
+      font-family: Helvetica, sans-serif;
       font-size: 0.875rem; }
     .block.block-blocktabs .ui-tabs-nav {
       padding: 0;
@@ -4044,7 +4044,7 @@ form .mailchimp-newsletter-mergefields .form-item {
         .block.block-blocktabs .ui-tabs-nav > li > a {
           font-size: 14px;
           text-transform: none;
-          font-family: "Open Sans", sans-serif;
+          font-family: Helvetica, sans-serif;
           font-weight: 700; }
         .block.block-blocktabs .ui-tabs-nav > li:last-child > a {
           padding-right: 0; }

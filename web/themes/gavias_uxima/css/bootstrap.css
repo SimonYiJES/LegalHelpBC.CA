@@ -26,7 +26,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.8;
@@ -4322,7 +4322,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.8;
@@ -4407,7 +4407,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Open Sans", sans-serif;
+  font-family: Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.8;
