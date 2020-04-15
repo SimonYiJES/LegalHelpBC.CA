@@ -42,10 +42,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true,
-        "platform": {
-            "php": "7.0.28"
-        }
+        "sort-packages": true
+
     },
     "autoload": {
         "classmap": [
